@@ -60,6 +60,9 @@ tab1, tab2, tab3, tab4= st.tabs(['Home','URL & Extract', 'Trend Analysis', 'Conc
 
 with tab1:
     st.markdown('## Welcome!')
+    st.markdown(''' Using Python's BeautifulSoup for data extraction, it gathers information such as job titles, companies, locations, and posting dates. 
+    The data is processed, cleaned, and visualized using tools like Seaborn and Matplotlib in Streamlit for insights on hiring trends and demand across various regions.
+    This analysis can help job seekers and recruiters better understand the job market landscape.''')
 
 with tab2:
     url= st.text_input('Paste LinkedIn URL what Role You Searched')
